@@ -1,9 +1,9 @@
 // src/components/Weather.jsx
 import React, { useState, useEffect } from "react";
-import axios from "axios"; // Optional if you're using axios
+import axios from "axios"; 
 
 const Weather = () => {
-  const [city, setCity] = useState(""); // Initial empty string
+  const [city, setCity] = useState(""); 
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState("");
 

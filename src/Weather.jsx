@@ -7,7 +7,7 @@ const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
   const [error, setError] = useState("");
 
-  const apiKey = "4ba8582439707f24ad88d674388dea37"; // Replace with your API key
+  const apiKey = "4ba8582439707f24ad88d674388dea37";
 
   useEffect(() => {
     if (city) {

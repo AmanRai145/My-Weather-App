@@ -29,10 +29,11 @@ const Weather = () => {
   }, [city]); // useEffect will run whenever the city changes
 
   return (
-    <div style={{ textAlign: "center", marginTop: "50px" }}>
-      <h1>Weather in Your City</h1>
+    <div className=" align-center mt-[50px] bg-[blue]" >
+      <h1 className=" bg-red">Weather in Your City</h1>
       <input
         type="text"
+        className="inpute bg-white rounded"
         value={city}
         onChange={(e) => setCity(e.target.value)}
         placeholder="Enter city name"

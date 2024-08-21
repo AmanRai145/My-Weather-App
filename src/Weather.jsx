@@ -44,7 +44,7 @@ const Weather = () => {
         }}
       />
 
-      {error && <p style={{ color: "red" }}>{error}</p>}
+      {error && <p className="color-red-500">{error}</p>}
 
       {weatherData && (
         <div style={{ marginTop: "20px" }}>
